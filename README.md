@@ -1,6 +1,8 @@
 TimeHash
 ========
 
+https://rubygems.org/gems/time-hash
+
 Just a normal Ruby Hash, with time (seconds) based expiration.
 
 API-wise, the only changes are that `[]=` is no longer used, and in it's place
