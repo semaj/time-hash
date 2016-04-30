@@ -4,6 +4,7 @@ TimeHash
 https://rubygems.org/gems/time-hash
 
 Just a normal Ruby Hash, with time (seconds) based expiration.
+(It's pretty scary and makes Haskell programmers cry.)
 
 API-wise, the only changes are that `[]=` is no longer used, and in it's place
 you use `put`, which takes a key, value, and a time-to-live (seconds).
