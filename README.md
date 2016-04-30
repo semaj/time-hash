@@ -57,6 +57,5 @@ You can examine this read-only field using `th.times`.
 
 Unfortunately this class adds O(n) to all operations (even simple ones) if you have automatic expiration on. But it's not too big of a deal, and if your hash gets big just manually expire things.
 
-Also this is definitely not thread-safe.
 
 
